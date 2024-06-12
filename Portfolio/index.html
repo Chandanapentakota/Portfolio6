@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Responsive Portfolio</title>
+  <meta name="description" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="main.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "nmrrciWGTh8SDikzG",
+        });
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Chandana Pentakota Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" id="menu-icon a" class="active">Home</a>
+      <a href="#about" id="menu-icon a">About</a>
+      <a href="#education" id="menu-icon a">Education</a>
+      <a href="#skill" id="menu-icon a">Skills</a>
+      <a href="#certifications" id="menu-icon a">Certifications</a>
+      <a href="#contact" id="menu-icon a">Contact</a>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello!!! I'm</h3>
+      <h1>Chandana Pentakota</h1>
+      <h3>And I'm an <span>Aspiring Developer</span></h3>
+      <p><span>Information Technology Undergrad</span><br><span>Gayatri Vidya Parishad College Of
+          Engineering</span><br><span>Java || C || Frontend Developer</span></p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/pentakota-chandana-119539251/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/chandu_0666_/"><i class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/Chandanapentakota"><i class='bx bxl-github'></i></a>
+      </div>
+      <a href="Resume.pdf" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+      <img src="home.jpeg" alt="">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2 class="heading">About <span> Me</span></h2>
+      <p>Hello,I'm Chandana,a passionate Information Technology undergraduate, and I am intrested to write complex code
+        into simple code using my problem solving skills.</p>
+      <p>Time being ,I Aspire to become a python developer and machine learning engineer.I've already begun gaining
+        knowledge in these areas.</p>
+      <p>I have more intrest in Blockchain Technology ,And gain some knowledge in that area.</p>
+      <p>I am excited to continue my journey in learning new things in different domains.Let's connect and explore the
+        endless possibilities of technology together.</p>
+      <a href="More About me.txt" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <div class="education-content">
+      <h1 class="span">Academic Qualifications</h1>
+      <ul class="unorder">
+        <li>
+          <p>B.Tech-Information Technology</p>
+          <p>Gayatri Vidya Parishad College of Engineering(A),Visakhapatnam,Andhra Pradesh</p>
+          <p>Year Of Passing : 2025</p>
+          <p><span>Courses Learned</span></p>
+          <p>Data Structures,Design and Analysis of Algorithms,Web Technologies,Machine Learning,Python,C,C++,Java,DBMS
+          </p>
+        </li>
+        <li>
+          <p>Intermediate-MPC</p>
+          <p>Sri Chaitanya Junior College,NAD,Visakhapatnam</p>
+          <p>Year Of Passing : 2021</p>
+        </li>
+        <li>
+          <p>10th Class</p>
+          <p>Sri Chaitanya Techno School,Pendurthi</p>
+          <p>Year Of Passing : 2019</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="skill" id="skill">
+    <div class="skill-content">
+        <h2 class="skill-head">Skills</h2>
+        <ul class="skill-unorder">
+            <li>
+                <p class="skill-item">Python<span class="stars"> &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">HTML<span class="stars"> &#9734; &#9734; &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">CSS<span class="stars"> &#9734; &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">C<span class="stars"> &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">Java<span class="stars"> &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">Data Structures and Algorithms<span class="stars"> &#9734; &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">Machine Learning<span class="stars"> &#9734; &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">Blockchain<span class="stars"> &#9734;</span></p>
+            </li>
+            <li>
+                <p class="skill-item">JavaScript<span class="stars"> &#9734; &#9734;</span></p>
+            </li>
+        </ul>
+    </div>
+  </section>
+
+
+  <section class="certifications" id="certifications">
+    <div class="cer-content">
+      <h2 class="cer-head">Certifications</h2>
+      <ol class="cer-order">
+        <li>
+          <p><span> Advanced Cyber Security</span>-Andhra Pradesh Information Technology Academy</p>
+        </li>
+        <li>
+          <p><span>Artificial Intelligence And Machine Learning Virtual Internship</span>-AWS</p>
+        </li>
+        <li>
+          <p><span>HTML</span>-Sololearn</p>
+        </li>
+        <li>
+          <p><span>CSS</span>-Coursera</p>
+        </li>
+        <li>
+          <p><span>Web Development</span>-Adverk Technologies</p>
+        </li>
+        <li>
+          <p><span>Cloud Computing</span>-Infyspringboard</p>
+        </li>
+        <li>
+          <p><span>Networking Virtual Internship</span>-AWS</p>
+        </li>
+      </ol>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span> Me!</span></h2>
+
+    <form >
+      <div class="input-box">
+        <label for="name" >Full Name:</label><br><br>
+        <input type="text" id="name"  placeholder="Full Name">
+      </div><br>
+      <div class="input-box">
+        <label for="email">Email Address:</label><br><br>
+        <input type="email" id="email"  placeholder="Email Address">
+      </div><br>
+      <div class="input-box">
+        <label for="mobileno" >Mobile Number:</label><br><br>
+        <input type="number" id="mobileno"  placeholder="Mobile Number">
+      </div><br>
+      <div class="input-box">
+        <label for="subject" class="x4">Email Subject:</label><br><br>
+        <input type="text"  id="subject"   placeholder="Email Subject">
+      </div><br>
+      <div class="input-box">
+        <label for="message" class="mesaage">Message:</label><br><br>
+        <textarea id="message" cols="20" rows="4" placeholder="Your Message"></textarea>
+      </div><br><br>
+      <button onclick="sendMessage();">Send Message</button>
+      
+    </form>
+  </section>
+</body>
+
+</html>

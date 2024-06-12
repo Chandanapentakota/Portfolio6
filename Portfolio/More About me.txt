@@ -1,0 +1,8 @@
+
+
+                                                       MORE ABOUT ME
+
+
+I am enthusiastic to learn coding, and I am curious to learn more technologies and gain more knowledge related to websites,applications.So, initially, I started learning HTML and then CSS. After learning these two, I created small webpages by applying different HTML tags and using CSS elements. I have created some basic web pages and also created a YouTube clone using HTML and CSS,  and I have gained more knowledge on HTML and CSS. Over time, I have started learning Javascript. After completion of learning JavaScript, I have created an Amazon Clone with HTML, CSS, and JavaScript. Now that I am comfortable with the frontend and want to work with the backend, I have applied for an internship full-stack with Java. 
+
+
